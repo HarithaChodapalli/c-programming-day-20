@@ -1,0 +1,13 @@
+#include<stdio.h>
+main()
+{
+	int n,i=1;
+	printf("enter size");
+	scanf("%d",&n);
+	printf("multiplication is :%d",n);
+	while(i<=10)
+	{
+		printf("%dX%d=%d\n2",n,i,n*i);
+		i++;
+	}
+	}
